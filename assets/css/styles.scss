@@ -1,0 +1,43 @@
+// styles.scss
+html, body{
+	width: 100%;
+	height: 100%;
+	display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: flex-start;
+}
+body{
+	position: relative;
+
+}
+.card{
+	width: 30vw;
+	height: 50vh;
+	margin-left: -15vw;
+	margin-top: -25vh;
+	opacity: 0;
+	pointer-events: none;
+}
+
+
+h1{
+	font-size: 15vw;
+	line-height: 15vw;
+	text-align: center;
+}
+
+.emotion{
+
+	div{
+		position: absolute;
+
+	}
+
+
+}
+
+.emotion:hover .card{
+	opacity:1;
+
+}
