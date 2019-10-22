@@ -11,10 +11,7 @@ $( document ).ready(function() {
     $(".card").each(function (index){
       $(this).attr('id', index );
 
-      $(this).hover(function(){
-        console.log("hovering");
 
-      });
 
     });
 
@@ -29,6 +26,9 @@ $( document ).ready(function() {
       path: 'anim/'+index+'.json' // the path to the animation json
     });
 
+    $(this).hover(function(index){
+
+    });
 
   });
 
