@@ -4,7 +4,7 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "5CFF2A79-114C-404D-95C4-901A8CB33AE0"
+		"uuidString": "80578415-4965-4CE3-8EA9-E802C80E40C7"
 		}
 	],
 "creatorBuild": "29156",
@@ -17,381 +17,11 @@
 		"oAP": "/.gitattributes",
 		"oF": 0
 		},
-	"/anim/0.json": {
-		"ft": 524288,
+	"/anim": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "/anim/0-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/1.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/1-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/10.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/10-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/11.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/11-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/12.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/12-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/13.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/13-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/14.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/14-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/15.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/15-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/16.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/16-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/17.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/17-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/18.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/18-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/2.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/2-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/20.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/20-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/21.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/21-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/22.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/22-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/23.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/23-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/24.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/24-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/25.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/25-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/26.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/26-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/27.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/27-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/28.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/28-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/29.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/29-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/30.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/30-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/31.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/31-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/32.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/32-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/33.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/33-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/34.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/34-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/35.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/35-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/36.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/36-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/37.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/37-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/38.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/38-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/39.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/39-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/40.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/40-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/41.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/41-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/42.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/42-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/43.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/43-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/44.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/44-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/45.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/45-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/46.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/46-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/47.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/47-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/48.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/48-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/49.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/49-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/50.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/50-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/6.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/6-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/7.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/7-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/8.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/8-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/anim/9.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/anim/9-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
+		"oAP": "/build/anim",
+		"oF": 0
 		},
 	"/apple-touch-icon-precomposed.png": {
 		"ft": 32768,
@@ -2422,11 +2052,11 @@
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/functions-min-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/js/functions.js": {
@@ -2437,7 +2067,7 @@
 		"oA": 0,
 		"oAP": "/assets/js/functions-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/js/jquery-2.1.1.min.js": {
@@ -2448,7 +2078,7 @@
 		"oA": 0,
 		"oAP": "/assets/js/jquery-2.1.1.min-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/js/jquery-3.4.1.min-min.js": {
@@ -2459,7 +2089,7 @@
 		"oA": 0,
 		"oAP": "/assets/js/jquery-3.4.1.min-min-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/js/jquery-3.4.1.min.js": {
@@ -2470,18 +2100,18 @@
 		"oA": 0,
 		"oAP": "/assets/js/jquery-3.4.1.min-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/js/lottie.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
-		"mi": 0,
+		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/lottie-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/assets/js/stats.min.js": {
@@ -2492,7 +2122,7 @@
 		"oA": 0,
 		"oAP": "/assets/js/stats.min-min.js",
 		"oF": 0,
-		"sC": 0,
+		"sC": 3,
 		"tS": 0
 		},
 	"/index.html": {
@@ -2509,7 +2139,7 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 593378273.26875401,
+	"creationDate": 593470486.59074295,
 	"displayValue": "Emotions-Site",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "/apple-touch-icon-precomposed.png",
@@ -4387,8 +4017,8 @@
 		"autoOutputPathStyle": 0,
 		"bundleFormat": 0,
 		"createSourceMap": 0,
-		"minifyOutput": 0,
-		"syntaxCheckerStyle": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 3,
 		"transpilerStyle": 0
 		},
 	"languageDefaultsJSON": {
@@ -4556,7 +4186,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "_cache,cache,.idea,log,_logs,logs,node_modules,/storage/framework/sessions,anim",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,

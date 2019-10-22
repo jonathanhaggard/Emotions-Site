@@ -2,10 +2,9 @@
 html, body{
 	width: 100%;
 	height: 100%;
-	display: flex;
-  flex-direction: column;
-  align-items: center;
-  align-content: flex-start;
+	background: grey;
+
+	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 body{
 	position: relative;
@@ -24,10 +23,12 @@ body{
 h1{
 	font-size: 15vw;
 	line-height: 15vw;
-	text-align: center;
+	text-align: left;
+	color: rgba(255,255,255,.5);
 }
 
 .emotion{
+	width: 100%;
 
 	div{
 		position: absolute;
@@ -36,8 +37,9 @@ h1{
 
 
 }
-
+.emotion:hover h1{
+	color: black;
+}
 .emotion:hover .card{
 	opacity:1;
-
 }

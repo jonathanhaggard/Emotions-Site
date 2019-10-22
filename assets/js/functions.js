@@ -4,15 +4,20 @@ $( document ).ready(function() {
 
 
 
-    console.log( index + ": " + $( this ).text() );
+    // console.log( index + ": " + $( this ).text() );
 
     $(this).append("<div class=" + "card" + "></div>");
 
     $(".card").each(function (index){
       $(this).attr('id', index );
 
+      $(this).hover(function(){
+        console.log("hovering");
+
+      });
 
     });
+
 
 
 
