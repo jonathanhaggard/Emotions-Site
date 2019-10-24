@@ -23,13 +23,23 @@ $( document ).ready(function() {
       $(this).attr('id', "header-"+index );
     });
 
-    lottie.loadAnimation({
+
+    var myAnimation = {
       container: document.getElementById(index), // the dom element that will contain the animation
       renderer: 'svg',
       loop: true,
-      autoplay: true,
+      autoplay: false,
       path: 'anim/'+index+'.json' // the path to the animation json
+    }
+    lottie.loadAnimation(myAnimation);
+
+    $(this).hover(function(){
+      lottie.play();
+    },
+    function() {
+      lottie.stop();
     });
+
 
     // $(this).hover(function(index){
     //
