@@ -19,6 +19,10 @@ $( document ).ready(function() {
       $(this).attr('id', "emotionData-"+index );
     });
 
+    $("h1").each(function (index){
+      $(this).attr('id', "header-"+index );
+    });
+
     lottie.loadAnimation({
       container: document.getElementById(index), // the dom element that will contain the animation
       renderer: 'svg',
@@ -45,6 +49,10 @@ $( document ).ready(function() {
     $(this).click(function(){
       // console.log(index);
         $("#emotionData-"+index).toggle();
+
+        $("#header-"+index).toggleClass("showHeader");
+
+        $("body").toggleClass("noScroll");
     });
   });
 });
