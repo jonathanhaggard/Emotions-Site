@@ -169,11 +169,11 @@ body {
 }
 
 .wordList{
-  padding: 2vw 1vw;
+  padding: 0;
 
 }
 .card {
-  width: 30vw;
+  width: 50vw;
   height: 50vh;
   margin-left: -15vw;
   margin-top: -25vh;
@@ -199,6 +199,9 @@ h1 {
     position: absolute;
   }
 
+.emotion:hover{
+  cursor: none;
+}
 .emotion:hover .card {
   opacity: 1;
 }

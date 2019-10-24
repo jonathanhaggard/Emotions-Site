@@ -1,10 +1,25 @@
 $( document ).ready(function() {
+  var colorTest = chroma.scale(['yellow', '008ae5']);
+
 
   $(".emotionData").hide();
 
   $( ".emotion" ).each(function( index ) {
 
+    scale = chroma.scale(['#f00', '#00f', '#0ff']);
 
+    const range = [0, 49];
+    const value = index;
+    const normal = norm(value, range[0], range[1]); // Return 0.15
+
+    function norm(value, min, max) {
+      return (value - min) / (max - min);
+    }
+
+    // Let's check the result in the console.
+    // console.log(normal);
+
+    $(this).css("background", scale(normal));
 
 
     $(this).append("<div class=" + "card" + "></div>");
@@ -33,8 +48,11 @@ $( document ).ready(function() {
     }
     lottie.loadAnimation(myAnimation);
 
+
+
     $(this).hover(function(){
       lottie.play();
+
     },
     function() {
       lottie.stop();
@@ -65,4 +83,23 @@ $( document ).ready(function() {
         $("body").toggleClass("noScroll");
     });
   });
+
+  $(".emotionData").each(function (index){
+    scale = chroma.scale(['#f00', '#00f', '#0ff']);
+
+    const range = [0, 49];
+    const value = index;
+    const normal = norm(value, range[0], range[1]); // Return 0.15
+
+    function norm(value, min, max) {
+      return (value - min) / (max - min);
+    }
+
+    // Let's check the result in the console.
+    // console.log(normal);
+
+    $(this).css("background", scale(normal));
+  });
+
+
 });
