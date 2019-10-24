@@ -208,14 +208,27 @@ h1 {
 }
 
 .emotionData{
-  background: blue;
+  background: darkgrey;
   position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   z-index: 30;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.emotionData p{
+  width: calc(33% - 5vmin);
+  padding: 5vmin 5vmin 5vmin 66%;
+  font-size: 1.5vw;
+  line-height: 2vw;
+
 }
 .showHeader{
   z-index: 9999;
+  color:black;
 }
