@@ -169,7 +169,7 @@ body {
 }
 
 .wordList{
-  padding: 5vw;
+  padding: 2vw 1vw;
 
 }
 .card {
@@ -221,11 +221,28 @@ h1 {
 
 }
 
-.emotionData p{
-  width: calc(33% - 5vmin);
-  padding: 5vmin 5vmin 5vmin 66%;
+.desc{
+  font-size: 4vw;
+  line-height: 4.5vw;
+}
+
+.quote{
+  font-style: italic;
+
   font-size: 1.5vw;
   line-height: 2vw;
+}
+
+.byLine{
+  margin-top:1vmin;
+  display: block;
+  font-style: normal;
+  font-size: 1vmin;
+}
+
+.emotionData p{
+  width: calc(50% - 5vmin);
+  padding: 5vmin 5vmin 5vmin 50%;
 
 }
 .showHeader{
