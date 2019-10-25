@@ -1,12 +1,57 @@
 $( document ).ready(function() {
-  var colorTest = chroma.scale(['yellow', '008ae5']);
+
+
+  //header
+
+
+  lottie.loadAnimation({
+  container: document.getElementById("words"), // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'words.json' // the path to the animation json
+  });
+
+  var graphicsAnimation = {
+  container: document.getElementById("graphics"), // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'anim/graphics.json' // the path to the animation json
+  }
+
+  lottie.loadAnimation(graphicsAnimation);
+
+  lottie.play(graphicsAnimation);
+
+
+  //This is for the background color once you click through
+  $(".emotionData").each(function (index){
+    scale = chroma.scale(['#f5c669', '#e97268',  '#ae49be', '#7fe1db']);
+
+    const range = [0, 49];
+    const value = index;
+    const normal = norm(value, range[0], range[1]); // Return 0.15
+
+    function norm(value, min, max) {
+      return (value - min) / (max - min);
+    }
+
+    // Let's check the result in the console.
+    // console.log(normal);
+
+    $(this).css("background", scale(normal));
+  });
 
 
   $(".emotionData").hide();
 
-  $( ".emotion" ).each(function( index ) {
+//individual cards
+  $( ".hoverable .emotion" ).each(function( index ) {
 
-    scale = chroma.scale(['#f00', '#00f', '#0ff']);
+
+    //this is for the background color on the index
+    scale = chroma.scale(['#f5c669', '#e97268',  '#ae49be', '#7fe1db']);
 
     const range = [0, 49];
     const value = index;
@@ -39,23 +84,24 @@ $( document ).ready(function() {
     });
 
 
-    var myAnimation = {
+    var cardAnimation = {
       container: document.getElementById(index), // the dom element that will contain the animation
       renderer: 'svg',
       loop: true,
       autoplay: false,
+      name: "cardAnim",
       path: 'anim/'+index+'.json' // the path to the animation json
     }
-    lottie.loadAnimation(myAnimation);
+    lottie.loadAnimation(cardAnimation);
 
 
 
     $(this).hover(function(){
-      lottie.play();
+      lottie.play("cardAnim");
 
     },
     function() {
-      lottie.stop();
+      lottie.stop("cardAnim");
     });
 
 
@@ -65,12 +111,51 @@ $( document ).ready(function() {
 
   });
 
-  $(document).on('mousemove', function(e){
-    $('.card').css({
+  $(".hoverable .emotion").on('mousemove', function(e){
+    $('.hoverable .card').css({
        left:  e.pageX,
        top:   e.pageY
     });
   });
+
+    $(".wordList").clone().appendTo(".tableOfContents");
+
+  // $(".tableOfContents .wordList .emotion").each(function (index){
+  //   var gridAnimation = {
+  //     container: document.getElementById(index), // the dom element that will contain the animation
+  //     renderer: 'svg',
+  //     loop: true,
+  //     autoplay: true,
+  //     path: 'anim/'+index+'.json' // the path to the animation json
+  //   }
+  //   lottie.loadAnimation(gridAnimation);
+  //   lottie.play();
+  //
+  //   console.log(index);
+  //
+  //   //this is for the background color on the index
+  //   scale = chroma.scale(['#fff', '#000']);
+  //
+  //   const range = [0, 49];
+  //   const value = index;
+  //   const normal = norm(value, range[0], range[1]); // Return 0.15
+  //
+  //   function norm(value, min, max) {
+  //     return (value - min) / (max - min);
+  //   }
+  //
+  //   // Let's check the result in the console.
+  //   // console.log(normal);
+  //
+  //   $(this).css("background", scale(normal));
+  //
+  //
+  // });
+
+
+    $(".tableOfContents .emotionData").show();
+
+
 
   $(".emotion").each(function(index){
 
@@ -84,22 +169,8 @@ $( document ).ready(function() {
     });
   });
 
-  $(".emotionData").each(function (index){
-    scale = chroma.scale(['#f00', '#00f', '#0ff']);
 
-    const range = [0, 49];
-    const value = index;
-    const normal = norm(value, range[0], range[1]); // Return 0.15
 
-    function norm(value, min, max) {
-      return (value - min) / (max - min);
-    }
-
-    // Let's check the result in the console.
-    // console.log(normal);
-
-    $(this).css("background", scale(normal));
-  });
 
 
 });

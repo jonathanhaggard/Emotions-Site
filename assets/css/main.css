@@ -164,6 +164,20 @@ body {
   overflow-x: hidden;
 }
 
+.header{
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.words, .graphics{
+  width: 50%;
+}
+.words{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .noScroll{
   overflow: hidden;
 }
@@ -174,40 +188,47 @@ body {
 }
 .card {
   width: 50vw;
-  height: 50vh;
-  margin-left: -15vw;
-  margin-top: -25vh;
+  height: 75vh;
+  margin-left: 0vw;
+  margin-top: -37vh;
   opacity: 0;
   pointer-events: none;
   z-index: 90;
 }
 
 h1 {
-  font-size: 10vw;
-  line-height: 10vw;
+  font-size: 8vw;
+  line-height: 8vw;
   text-align: left;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   position: relative;
+}
+
+h2{
+  font-size: 4vw;
+  line-height: 4vw;
+  padding: 2vw;
 }
 
 .emotion {
   width: 100%;
   cursor: pointer;
-  padding: 5vh;
+  padding: 10vh 2vw;
+  user-select: none;
 }
   .emotion .card {
     position: absolute;
   }
 
 .emotion:hover{
-  cursor: none;
+  /* cursor: none; */
 }
 .emotion:hover .card {
   opacity: 1;
 }
 
-.emotion:hover h1{
-  text-decoration: underline;
+.hoverable .emotion:hover h1{
+  text-decoration: underline ;
 }
 
 .emotionData{
@@ -225,8 +246,8 @@ h1 {
 }
 
 .desc{
-  font-size: 4vw;
-  line-height: 4.5vw;
+  font-size: 3.5vw;
+  line-height: 4vw;
 }
 
 .quote{
@@ -240,7 +261,7 @@ h1 {
   margin-top:1vmin;
   display: block;
   font-style: normal;
-  font-size: 1vmin;
+  font-size: 1vw;
 }
 
 .emotionData p{
@@ -251,4 +272,75 @@ h1 {
 .showHeader{
   z-index: 9999;
   color:black;
+}
+
+.tableOfContents{
+  background: black;
+}
+.tableOfContents .wordList{
+
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.tableOfContents .emotion{
+  width: 20%;
+  height: auto;
+  padding: 0;
+  cursor: auto;
+  background: black !important;
+  color: white;
+  padding: 24px;
+  box-sizing: border-box;
+}
+
+.tableOfContents h1{
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.emotion:hover h1{
+  text-decoration: none;
+}
+
+.tableOfContents p{
+  width: 100%;
+
+}
+
+.tableOfContents .card{
+  width: 8vw;
+  height: 8vw;
+  margin-top: 0;
+  position: relative;
+  opacity: 1;
+
+}
+.tableOfContents .emotionData{
+  display: block !important;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: black !important;
+
+}
+
+.tableOfContents .desc{
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0;
+}
+
+.tableOfContents .quote{
+
+  padding: 0;
+  display: none;
+}
+
+.tableOfContents .byline{
+
+  padding: 0;
+  display: none;
 }
