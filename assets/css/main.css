@@ -226,6 +226,7 @@ body {
   opacity: 0;
   pointer-events: none;
   z-index: 90;
+  mix-blend-mode: exclusion;
 }
 
 h1 {
