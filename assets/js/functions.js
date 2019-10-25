@@ -166,8 +166,30 @@ $( document ).ready(function() {
     });
   });
 
+  if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+    $(".emotionData").show();
+
+    $(".emotion").each(function(index){
+    $(this).click(function(){
+      // console.log(index);
+        $("#emotionData-"+index).show();
+
+        $("#header-"+index).removeClass("showHeader");
+
+        $("body").removeClass("noScroll");
+    });
+      });
+
+      lottie.play("cardAnim");
 
 
+        $(".hoverable .emotion").on('mousemove', function(e){
+          $('.hoverable .card').css({
+             left:  0,
+             top:   0
+          });
+        });
+  }
 
 
 });
