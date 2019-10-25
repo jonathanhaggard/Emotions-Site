@@ -156,7 +156,7 @@ html, body {
   width: 100%;
   height: 100%;
   background: white;
-  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 body {
@@ -221,7 +221,7 @@ body {
 .card {
   width: 50vw;
   height: 75vh;
-  margin-left: 0vw;
+  margin-left: -5vw;
   margin-top: -37vh;
   opacity: 0;
   pointer-events: none;
@@ -456,6 +456,7 @@ footer h1{
     opacity: 1;
     width: 100%;
     margin: 0 auto;
+    padding: 4vw 0 0 0;
   }
   .emotion h1{
     margin-bottom: 12px;
