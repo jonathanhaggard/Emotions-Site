@@ -3,15 +3,6 @@ $( document ).ready(function() {
 
   //header
 
-
-  lottie.loadAnimation({
-  container: document.getElementById("words"), // the dom element that will contain the animation
-  renderer: 'svg',
-  loop: true,
-  autoplay: true,
-  path: 'words.json' // the path to the animation json
-  });
-
   var graphicsAnimation = {
   container: document.getElementById("graphics"), // the dom element that will contain the animation
   renderer: 'svg',

@@ -155,7 +155,7 @@ caption {
 html, body {
   width: 100%;
   height: 100%;
-  background: grey;
+  background: black;
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -176,9 +176,15 @@ body {
 .words{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  background: black;
-  color: white;
+  justify-content: space-between;
+  background: white;
+  color: black;
+}
+.words a{
+  color: black;
+}
+.graphics{
+  background: #99dfda;
 }
 .noScroll{
   overflow: hidden;
@@ -277,7 +283,8 @@ h2{
 }
 
 .tableOfContents{
-  background: black;
+  background: white;
+  color: black;
 }
 .tableOfContents .wordList{
 
@@ -291,8 +298,8 @@ h2{
   height: auto;
   padding: 0;
   cursor: auto;
-  background: black !important;
-  color: white;
+  background: white !important;
+  color: black;
   padding: 24px;
   box-sizing: border-box;
 }
@@ -301,6 +308,7 @@ h2{
   font-size: 16px;
   line-height: 24px;
   font-weight: bold;
+  color: black;
 }
 
 .emotion:hover h1{
@@ -325,7 +333,7 @@ h2{
   position: relative;
   width: 100%;
   height: auto;
-  background-color: black !important;
+  background-color: white !important;
 
 }
 
