@@ -3,17 +3,23 @@ $( document ).ready(function() {
 
   //header
 
-  var graphicsAnimation = {
+  lottie.loadAnimation({
   container: document.getElementById("graphics"), // the dom element that will contain the animation
   renderer: 'svg',
   loop: true,
   autoplay: true,
   path: 'anim/graphics.json' // the path to the animation json
-  }
+  });
 
-  lottie.loadAnimation(graphicsAnimation);
+  lottie.loadAnimation({
+  container: document.getElementById("logo"), // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: 'anim/logo.json' // the path to the animation json
+  });
 
-  lottie.play(graphicsAnimation);
+
 
 
   //This is for the background color once you click through
@@ -109,7 +115,7 @@ $( document ).ready(function() {
     });
   });
 
-    $(".wordList").clone().appendTo(".tableOfContents");
+    // $(".wordList").clone().appendTo(".tableOfContents");
 
   // $(".tableOfContents .wordList .emotion").each(function (index){
   //   var gridAnimation = {
@@ -144,7 +150,7 @@ $( document ).ready(function() {
   // });
 
 
-    $(".tableOfContents .emotionData").show();
+    // $(".tableOfContents .emotionData").show();
 
 
 
