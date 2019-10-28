@@ -212,10 +212,12 @@ body {
 }
 
 @keyframes bg_change {
-  0% { background: #f5c669; }
-  25% { background: #e97268; }
-  50% { background: #ae49be; }
-  100% { background: #7fe1db; }
+  0% { background: #FF8A76; }
+  20% { background: #E94E3E; }
+  40% { background: #B48C4E; }
+  60% { background: #B67102; }
+  80% { background: #04C957; }
+  100% { background: #00B3C8; }
 }
 
 
