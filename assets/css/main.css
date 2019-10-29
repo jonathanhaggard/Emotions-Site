@@ -241,7 +241,7 @@ body {
 }
 
 h1 {
-  font-size: 8vw;
+  font-size: 7vw;
   line-height: 8vw;
   text-align: left;
   color: white;
@@ -295,17 +295,19 @@ h2{
 }
 
 .quote{
-  font-style: italic;
   position: relative;
   font-size: 1.5vw;
   line-height: 2vw;
+
+  font-family: 'Montserrat', sans-serif;
 }
 
 .byLine{
-  margin-top:1vmin;
+  margin-top:2vw;
   display: block;
   font-style: normal;
-  font-size: 1vw;
+  font-size: 1.5vw;
+  line-height: 2vw;
 }
 
 .emotionData p{
@@ -522,7 +524,10 @@ footer h1{
   .graphics{
     display: none;
   }
-
+  h1{
+    font-size: 90px !important;
+    line-height: 100px !important;
+  }
   h2{
     font-size: 36px;
     line-height: 42px;
@@ -531,8 +536,8 @@ footer h1{
     width: 100%;
   }
   footer p, .desc, .quote, .byLine {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 36px;
   }
   .emotion{
     box-sizing: border-box;
@@ -554,6 +559,8 @@ footer h1{
   .emotionData p{
     width: 100%;
     padding: 0;
+    font-size: 24px;
+    line-height: 36px;
   }
   .emotion .card{
     position: relative;
@@ -584,24 +591,33 @@ footer h1{
   }
   .quote, .byLine{
     margin-top: 24px;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 36px;
   }
 }
 
 @media only screen and (device-width: 1024px) {
-  .header{
-    flex-direction: column-reverse;
-    height: auto;
-  }
 
-  .graphics, .words{
+  .emotionData{
+    width: 50% !important;
+  }
+  h1{
+    font-size: 10vw !important;
+    line-height: 11vw !important;
+    order:1 !important;
     width: 100%;
   }
-  .graphics{
-    display: none;
-  }
 
+  .emotionData{
+    order:2 !important;
+  }
+  .emotionData p{
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .card{
+    order: 3 !important;
+  }
   h2{
     font-size: 36px;
     line-height: 42px;
@@ -615,9 +631,12 @@ footer h1{
   }
   .emotion{
     box-sizing: border-box;
-    padding: 4vw;
+    padding: 4vw 0 4vw 4vw;
     display: flex;
-  flex-direction: column-reverse;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
   }
   .emotionData{
     position: relative;
@@ -641,9 +660,9 @@ footer h1{
   .card{
     margin-top:0;
     opacity: 1;
-    width: 100%;
-    margin: 0 auto;
-    padding: 4vw  0;
+    width: 50% !important;
+    margin: 0;
+    padding:  0;
     order: 1;
   }
   .emotion h1{
@@ -663,7 +682,7 @@ footer h1{
   }
   .quote, .byLine{
     margin-top: 24px;
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 24px;
+    line-height: 36px;
   }
 }
