@@ -30,7 +30,7 @@ $( document ).ready(function() {
   //This is for the background color once you click through
   $(".emotionData").each(function (index){
     // scale = chroma.scale(['#f5c669', '#e97268',  '#ae49be', '#7fe1db']);
-    scale = chroma.scale(['#FF8A76', '#E94E3E',  '#B48C4E', '#B67102', '#04C957', '#00B3C8']);
+    scale = chroma.scale(['#FFEC00', '#FF8A76',  '#FF6201', '#E94E3E', '#003FCA', '#00B3C8' , '#04C957']);
 
     const range = [0, 49];
     const value = index;
@@ -54,7 +54,7 @@ $( document ).ready(function() {
 
 
     //this is for the background color on the index
-    scale = chroma.scale(['#FF8A76', '#E94E3E',  '#B48C4E', '#B67102', '#04C957', '#00B3C8']);
+    scale = chroma.scale(['#FFEC00', '#FF8A76',  '#FF6201', '#E94E3E', '#003FCA', '#00B3C8' , '#04C957']);
 
     const range = [0, 49];
     const value = index;
