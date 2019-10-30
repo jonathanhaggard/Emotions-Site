@@ -238,7 +238,7 @@ body {
   opacity: 0;
   pointer-events: none;
   z-index: 90;
-  mix-blend-mode: overlay;
+  /* mix-blend-mode: overlay; */
 }
 
 h1 {
@@ -309,6 +309,7 @@ h2{
   font-style: normal;
   font-size: 1.5vw;
   line-height: 2vw;
+  font-weight: 700;
 }
 
 .emotionData p{
@@ -506,6 +507,10 @@ footer h1{
   .logo{
     z-index: 9999999;
   }
+  .desc{
+    font-size: 24px;
+    line-height: 36px;
+  }
   .quote, .byLine{
     margin-top: 24px;
     font-size: 12px;
@@ -590,6 +595,10 @@ footer h1{
   .logo{
     z-index: 9999999;
   }
+  .desc{
+    font-size: 36px !important;
+    line-height: 48px !important;
+  }
   .quote, .byLine{
     margin-top: 24px;
     font-size: 24px;
@@ -627,8 +636,8 @@ footer h1{
     width: 100%;
   }
   footer p, .desc, .quote, .byLine {
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 24px;
+    line-height: 36px;
   }
   .emotion{
     box-sizing: border-box;
@@ -680,6 +689,10 @@ footer h1{
   }
   .logo{
     z-index: 9999999;
+  }
+  .desc{
+    font-size: 36px !important;
+    line-height: 48px !important;
   }
   .quote, .byLine{
     margin-top: 24px;
