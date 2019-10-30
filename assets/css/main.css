@@ -680,6 +680,7 @@ footer h1{
     font-size: 48px;
     line-height: 56px;
     order: 2;
+    margin-bottom: 36px;
   }
   footer{
     padding: 4vw;
