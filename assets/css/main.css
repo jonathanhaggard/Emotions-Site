@@ -164,7 +164,9 @@ body {
   overflow-x: hidden;
 
 }
-
+footer  a{
+  color: black;
+}
 
 .logo{
   position: fixed;
