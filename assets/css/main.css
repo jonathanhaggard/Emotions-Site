@@ -263,7 +263,7 @@ h2{
   text-align: left;
   color: black;
   position: relative;
-  padding: 2vw;
+  padding: 2vw 2vw 0 2vw;
 }
 .words h2{
   font-size: 2vw !important;
@@ -347,8 +347,8 @@ footer a{
   width: 66%;
 }
 footer p{
-  font-size: 3vw;
-  line-height: 3.5vw;
+  font-size: 2vw !important;
+  line-height: 2.5vw !important;
   padding: 4vw 0 0;
 }
 footer h1{
