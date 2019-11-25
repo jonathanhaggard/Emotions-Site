@@ -253,11 +253,26 @@ h1 {
 h2{
   font-size: 3vw;
   line-height: 3.5vw;
-  padding: 2vw;
+  padding: 2vw ;
 }
 .words h2{
-  font-size: 2vw !important;
-  line-height: 2.5vw !important;
+  font-size: 2vw;
+  line-height: 2.5vw;
+}
+.words h2.biggerHeader{
+  font-size: 3vw;
+  line-height: 3.5vw;
+  padding: 2vw 2vw 0 2vw;
+}
+footer .biggerHeader{
+  font-size: 7vw;
+  line-height: 8vw;
+  padding: 0;
+  margin-top: 15vh;
+}
+.smallerText{
+  font-size: 2vw;
+  line-height: 2.5vw;
 }
 .emotion {
   width: 100%;
@@ -350,6 +365,10 @@ footer h1{
   width: 4vw;
   height: 4vw;
   position: absolute;
+}
+.endOfSite{
+  width: 36px;
+  height: 36px;
 }
 
 /* .quote:before {
@@ -456,6 +475,25 @@ footer h1{
     font-size: 36px;
     line-height: 42px;
   }
+
+  .words h2{
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .words h2.biggerHeader{
+    font-size: 36px;
+    line-height: 42px;
+  }
+  footer .biggerHeader{
+    font-size: 36px;
+    line-height: 42px;
+    padding: 0;
+    margin-top: 15vh;
+  }
+  .smallerText{
+    font-size: 16px;
+    line-height: 24px;
+  }
   .footerContents{
     width: 100%;
   }
@@ -542,6 +580,26 @@ footer h1{
     font-size: 36px;
     line-height: 42px;
   }
+
+  .words h2{
+    font-size: 36px;
+    line-height: 42px;
+  }
+  .words h2.biggerHeader{
+    font-size: 96px;
+    line-height: 92px;
+  }
+  footer .biggerHeader{
+    font-size: 96px;
+    line-height: 92px;
+    padding: 0;
+    margin-top: 15vh;
+  }
+  .smallerText{
+    font-size: 30px;
+    line-height: 36px;
+  }
+
   .footerContents{
     width: 100%;
   }
