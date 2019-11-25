@@ -168,8 +168,8 @@ body {
 
 .logo{
   position: fixed;
-  height: 25vmin;
-  width: 25vmin;
+  height: 20vmin;
+  width: 20vmin;
   bottom: 2vw;
   right: 2vw;
   z-index: 29;
@@ -201,6 +201,7 @@ body {
   justify-content: space-between;
   background: white;
   color: black;
+
 }
 .words a{
   color: black;
@@ -254,7 +255,10 @@ h2{
   line-height: 3.5vw;
   padding: 2vw;
 }
-
+.words h2{
+  font-size: 2vw !important;
+  line-height: 2.5vw !important;
+}
 .emotion {
   width: 100%;
   cursor: pointer;
