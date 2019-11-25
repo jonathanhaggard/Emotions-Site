@@ -165,7 +165,9 @@ body {
 
 }
 
-
+.colophon{
+  margin-top: 15vw;
+}
 .logo{
   position: fixed;
   height: 20vmin;
@@ -255,6 +257,14 @@ h2{
   line-height: 3.5vw;
   padding: 2vw;
 }
+.words h1{
+  font-size: 4vw;
+  line-height: 4.5vw;
+  text-align: left;
+  color: black;
+  position: relative;
+  padding: 2vw;
+}
 .words h2{
   font-size: 2vw !important;
   line-height: 2.5vw !important;
@@ -328,6 +338,9 @@ h2{
 
 footer{
   padding: 2vw;
+  color: black;
+}
+footer a{
   color: black;
 }
 .footerContents{
