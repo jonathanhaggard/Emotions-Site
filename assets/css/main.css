@@ -378,13 +378,11 @@ footer h1{
 }
 #sign-up-contents{
 	padding: 2.5vw 2.7vw 3.3vw;
-	font-weight: 300;
 	letter-spacing: 0.105em;
     width: 52vw;
     font-family: 'Montserrat', sans-serif;
 }
 #sign-up-contents p{
-    -webkit-text-stroke: 1px #fff;
     font-size: 3.2vw;
     line-height: 1.31em;
     margin-bottom: 7.8vw;
@@ -394,7 +392,6 @@ footer h1{
 	height: 6.4vw;
     margin: 0;
     font-size: 2.6vw;
-    font-weight: 300;
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     padding: 0;
@@ -424,7 +421,6 @@ footer h1{
 	background:#fff;
 	border:1px solid #fff;
 	color: #60C565;
-    -webkit-text-stroke: 1px #60C565;
 	border-radius: 0 6vw 6vw 0;
     padding: 0px 1.4em 0 1.1em;
 }
@@ -620,6 +616,37 @@ footer h1{
     font-size: 12px;
     line-height: 20px;
   }
+  
+	#sign-up-contents{
+		padding: 5vw 5vw 7vw;
+	    letter-spacing: .05em;
+	    width: 69vw;
+	}
+	#sign-up-contents p{
+	    font-size: 4.3vw;
+	    margin-bottom: 6vw;
+	}
+	#sign-up input{
+	    height: 12vw;
+	    font-size: 4.4vw;
+	    display: block;
+   	}
+	#sign-up input[type=email]{
+	    width: 100%;
+	    border-right: inherit;
+	    border-radius: 12vw;
+	    padding-left: 6.5vw;
+	    margin-bottom: 3vw;
+	4
+	#sign-up input[type=submit]{
+	    border-radius: 12vw;
+	    padding: 0px 1.4em 0 1.1em;
+	    width: 100%;
+	    text-align: center;
+	}
+
+  
+  
 }
 
 @media only screen and (device-width: 768px) {
