@@ -395,6 +395,7 @@ footer h1{
     display: inline-block;
     font-family: 'Montserrat', sans-serif;
     padding: 0;
+    -webkit-appearance: none;
 }
 #sign-up input:focus {
 	  box-shadow: none;
